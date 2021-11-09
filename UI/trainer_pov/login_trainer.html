@@ -72,9 +72,7 @@
           this.input_pwd = document.getElementById("pwd").value;
           this.get_person_URL = "http://localhost:5002/person/"+this.input_id;
 
-          // alert(this.input_id)
-          // alert(this.input_pwd)
-          // alert(this.get_person_URL)
+         
           
           fetch(`${this.get_person_URL}`)
             .then(response => response.json())
@@ -90,7 +88,6 @@
                             if(this.input_pwd == this.real_pwd){
                             console.log("Login successfully");
                             // alert('Its the right pwdd!!')
-                            var ab = 'I hate SPM'
                             sessionStorage.setItem('user_id',this.input_id);
                             window.location = "trainer_quiz_dashboard.html"; // redirect 
                             }
