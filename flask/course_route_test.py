@@ -220,7 +220,7 @@ class Test_Course(unittest.TestCase):
 
 
 
-# Test if API '/course_lesson/course_id' works
+# Test if API '/course/course_id' works
 class Test_Course(unittest.TestCase):
     # Check if response is 200
     def test_course(self):
@@ -261,7 +261,7 @@ class Test_Course(unittest.TestCase):
         self.assertEqual('doc1.docx, doc2.docx, doc3.docx', response_body['data']['doc_material'])
         self.assertEqual('pdf1.pdf, pdf2.pdf', response_body['data']['pdf_material'])
         self.assertEqual('ppt1.pptx, ppt2.pptx', response_body['data']['ppt_material'])
-        self.assertEqual(None, response_body['data']['quiz_id'])
+        self.assertEqual('C101-L1-Quiz', response_body['data']['quiz_id'])
         self.assertEqual('vid1.mp4, vid2.mp4, vid3.mp4', response_body['data']['video_material'])
 
 
