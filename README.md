@@ -30,30 +30,25 @@ For MAC users,</b> <br />
   <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; python Person.py
   <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; python Enrollment.py
   <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; python Quiz.py
-<br />
-<br />
-From (original file): 
-<br />
-   app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:''' + \
-                                        '@localhost:3306/mydb'                                   
-<br />                                                                 
-To (MAC users) :
-<br />
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:root' + \
-                                        '@localhost:3306/mydb'
+  <br /> From (original file): 
+         <br />
+            app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:''' + \
+                                                 '@localhost:3306/mydb'                                   
+  To (MAC users) :
+  <br /> app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:root' + \
+                                           '@localhost:3306/mydb'
                                     
 2. Change the directory to hr_pov
    <br /> cd UI
    <br /> cd hr_prov
    <br />
-3. Look for the file 'action.php' and make the following edits.
-  <br /> 
-From (original file) :
-<br />
-   $connect = new PDO("mysql:host=localhost;dbname=mydb","root", "");
-<br />
-To (MAC users):
-<br />
-   $connect = new PDO("mysql:host=localhost;dbname=mydb","root", "root");
+3. Look for the file 'action.php' and make the following edits. 
+  <br /> From (original file) :
+   <br />
+      $connect = new PDO("mysql:host=localhost;dbname=mydb","root", "");
+   <br />
+   To (MAC users):
+   <br />
+      $connect = new PDO("mysql:host=localhost;dbname=mydb","root", "root");
 
                
