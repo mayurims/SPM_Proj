@@ -1,5 +1,6 @@
 # SPM_Proj
 
+Hello there, this is our SPM Project which a Learning Management System. Please follow the following instructions to get the application work :)
 
 
 The Ports assigned for each of the Classes are the following ->
@@ -21,30 +22,31 @@ In order for the application to work, go to your Terminal,
 
 <br />
 For MAC users, <br />
-1. Replace for the following files :-
-   <br /> python Course.py
-   <br /> python Person.py
-   <br /> python Enrollment.py
-   <br /> python Quiz.py
+&nbsp;&nbsp; 1. Replace for the following files :-
+  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp python Course.py
+  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp python Person.py
+  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp python Enrollment.py
+  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp python Quiz.py
+<br />
 <br />
 From (original file): 
 <br />
    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:''' + \
                                         '@localhost:3306/mydb'
                                         
-                                        
-<br />                                
+<br />                                                                 
 To (MAC users):
 <br />
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:root' + \
                                         '@localhost:3306/mydb'
-                                        
+                                    
 2. Change the directory to hr_pov
    <br /> cd UI
    <br /> cd hr_prov
    <br />
 3. Look for the file 'action.php' and make the following edits.
   <br /> 
+  
 From(original file):
 <br />
    $connect = new PDO("mysql:host=localhost;dbname=mydb","root", "");
