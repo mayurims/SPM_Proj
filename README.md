@@ -26,19 +26,18 @@ In order for the application to work, go to your Terminal,
 <br /><b>
 For MAC users,</b> <br />
 &nbsp;&nbsp; 1. Replace for the following files :-
-  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp python Course.py
-  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp python Person.py
-  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp python Enrollment.py
-  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp python Quiz.py
+  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; python Course.py
+  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; python Person.py
+  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; python Enrollment.py
+  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; python Quiz.py
 <br />
 <br />
 From (original file): 
 <br />
    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:''' + \
-                                        '@localhost:3306/mydb'
-                                        
+                                        '@localhost:3306/mydb'                                   
 <br />                                                                 
-To (MAC users):
+To (MAC users) :
 <br />
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:root' + \
                                         '@localhost:3306/mydb'
@@ -49,8 +48,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:root' + \
    <br />
 3. Look for the file 'action.php' and make the following edits.
   <br /> 
-  
-From(original file):
+From (original file) :
 <br />
    $connect = new PDO("mysql:host=localhost;dbname=mydb","root", "");
 <br />
