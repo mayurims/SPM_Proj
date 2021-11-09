@@ -23,7 +23,7 @@ In order for the application to work, go to your Terminal,
 For MAC users, 
 
 1. Replace for the following files -
-   </br>
+   <br />
     python Course.py
     python Person.py
     python Enrollment.py
