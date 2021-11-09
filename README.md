@@ -20,7 +20,7 @@ In order for the application to work, go to your Terminal,
    <br /> python Quiz.py
 
 <br />
-For MAC users, 
+For MAC users, <br />
 1. Replace for the following files :-
    <br /> python Course.py
    <br /> python Person.py
