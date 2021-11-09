@@ -11,8 +11,8 @@ The Ports assigned for each of the Classes are the following ->
 
 
 
-<br />
-For Window users, <br />
+<br /> <b>
+For Window users, </b><br />
 In order for the application to work, go to your Terminal, 
 1. Load the SQL file 'g7t6_database.sql' into your Database
 2. Change directory to flask 
