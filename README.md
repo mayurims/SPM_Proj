@@ -10,6 +10,9 @@ The Ports assigned for each of the Classes are the following ->
 4. Quiz -> 5004
 
 
+
+<br />
+For Window users, <br />
 In order for the application to work, go to your Terminal, 
 1. Load the SQL file 'g7t6_database.sql' into your Database
 2. Change directory to flask 
@@ -20,8 +23,8 @@ In order for the application to work, go to your Terminal,
    <br /> python Enrollment.py
    <br /> python Quiz.py
 
-<br />
-For MAC users, <br />
+<br /><b>
+For MAC users,</b> <br />
 &nbsp;&nbsp; 1. Replace for the following files :-
   <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp python Course.py
   <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp python Person.py
