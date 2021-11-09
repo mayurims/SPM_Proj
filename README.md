@@ -30,7 +30,7 @@ For MAC users,
 <br />
 From (original file): 
 <br />
- app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:''' + \
+   app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:''' + \
                                         '@localhost:3306/mydb'
                                         
                                         
