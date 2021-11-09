@@ -23,9 +23,9 @@ In order for the application to work, go to your Terminal,
 For MAC users, 
 
 1. Replace for the following files -
-    python Course.py
-    python Person.py
-    python Enrollment.py
+    python Course.py,
+    python Person.py,
+    python Enrollment.py,
     python Quiz.py
     
 From (original file): 
