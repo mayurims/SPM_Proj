@@ -14,18 +14,19 @@ In order for the application to work, go to your Terminal,
 2. Change directory to flask 
    cd flask
 3. Run the following codes in your terminal :-
-    python Course.py__
-    python Person.py__
-    python Enrollment.py__
-    python Quiz.py__
+    python Course.py
+    python Person.py
+    python Enrollment.py
+    python Quiz.py
 
 
 For MAC users, 
 
 1. Replace for the following files -
-    python Course.py,
-    python Person.py,
-    python Enrollment.py,
+   a__
+    python Course.py
+    python Person.py
+    python Enrollment.py
     python Quiz.py
     
 From (original file): 
