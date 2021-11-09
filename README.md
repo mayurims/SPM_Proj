@@ -19,3 +19,32 @@ In order for the application to work, go to your Terminal,
     python Enrollment.py
     python Quiz.py
 
+
+For MAC users, 
+
+1. replace for the following files -
+    python Course.py
+    python Person.py
+    python Enrollment.py
+    python Quiz.py
+    
+From (original file): 
+ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:''' + \
+                                        '@localhost:3306/mydb'
+To (MAC users):
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:root' + \
+                                        '@localhost:3306/mydb'
+                                        
+2. Change the directory to hr_pov
+   cd UI
+   cd hr_prov
+   
+3. Look for the file 'action.php' and make the following edits.
+   
+From(original file):
+   $connect = new PDO("mysql:host=localhost;dbname=mydb","root", "");
+   
+To (MAC users):
+   $connect = new PDO("mysql:host=localhost;dbname=mydb","root", "root");
+
+               
