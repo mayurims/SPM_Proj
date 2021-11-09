@@ -21,8 +21,7 @@ In order for the application to work, go to your Terminal,
 
 <br />
 For MAC users, 
-<br />
-1. Replace for the following files -
+1. Replace for the following files :-
    <br /> python Course.py
    <br /> python Person.py
    <br /> python Enrollment.py
